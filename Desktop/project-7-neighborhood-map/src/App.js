@@ -44,7 +44,7 @@ state = {
     })
     this.state.venues.map(myVenue => {
       var marker = new window.google.maps.Marker({
-        position: {lat: myVenue.venue.location.lat , lng: myVenue.venue.location.lng},
+        position: {lat: myVenue.venue.location.lat, lng: myVenue.venue.location.lng},
         map: map,
         title: myVenue.venue.name
       })
