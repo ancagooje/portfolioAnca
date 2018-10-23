@@ -23,7 +23,7 @@ state = {
      client_id: "RXELH2QF5VFRWCD11BWSZWE1TP3OEDXDY3FSN1U552FCOY0J",
      client_secret: "X0O4RURKYRVBH0IXWDZRLUWT0ZPKWQXIDJXB3ANT3T44111N",
      query: "seafood",
-     near: "Portland, ME",
+     near: "Scarborough, ME",
      v: "20182507"
    }
    axios.get(endPoint + new URLSearchParams(parameters))
@@ -42,7 +42,7 @@ state = {
     // display the Google map
     var map = new window.google.maps.Map(document.getElementById('map'), 
     { center: {lat: 43.5969466, lng: -70.3372277},
-      zoom: 8
+      zoom: 11
     })
 //created an Info Window using the example at https://developers.google.com/maps/documentation/javascript/infowindows
     var infowindow = new window.google.maps.InfoWindow();
