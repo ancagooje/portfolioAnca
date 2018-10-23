@@ -22,8 +22,8 @@ state = {
    const parameters = {
      client_id: "RXELH2QF5VFRWCD11BWSZWE1TP3OEDXDY3FSN1U552FCOY0J",
      client_secret: "X0O4RURKYRVBH0IXWDZRLUWT0ZPKWQXIDJXB3ANT3T44111N",
-     query: "food",
-     near: "Portland",
+     query: "seafood",
+     near: "Portland, ME",
      v: "20182507"
    }
    axios.get(endPoint + new URLSearchParams(parameters))
@@ -51,7 +51,7 @@ state = {
 
 
       
-      var contentString = '${myVenue.venue.name.address}'
+      var contentString = '${myVenue.venue.name}'
       
 //created a dynamic Marker using the example from https://developers.google.com/maps/documentation/javascript/markers
       var marker = new window.google.maps.Marker({
