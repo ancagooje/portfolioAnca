@@ -45,11 +45,11 @@ state = {
       zoom: 11
     })
 //created an Info Window using the example at https://developers.google.com/maps/documentation/javascript/infowindows
-    var infowgit comindow = new window.google.maps.InfoWindow();
+  
 
     this.state.venues.map(myVenue => {
 
-
+      var infowindow = new window.google.maps.InfoWindow();
       
       var contentString = '${myVenue.venue.name.address.website}'
       
