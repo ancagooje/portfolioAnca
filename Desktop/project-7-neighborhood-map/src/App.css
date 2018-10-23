@@ -38,5 +38,7 @@ body {
   max-width: 100%;
   height: 100vh;
   z-index: 100;
-  background: rgb(216, 213, 213);
+  background: #d8d5d5;
 }
+
+#infoWindow {}

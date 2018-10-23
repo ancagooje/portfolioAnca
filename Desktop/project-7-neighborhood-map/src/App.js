@@ -45,13 +45,13 @@ state = {
       zoom: 11
     })
 //created an Info Window using the example at https://developers.google.com/maps/documentation/javascript/infowindows
-    var infowindow = new window.google.maps.InfoWindow();
+    var infowgit comindow = new window.google.maps.InfoWindow();
 
     this.state.venues.map(myVenue => {
 
 
       
-      var contentString = '${myVenue.venue.name}'
+      var contentString = '${myVenue.venue.name.address.website}'
       
 //created a dynamic Marker using the example from https://developers.google.com/maps/documentation/javascript/markers
       var marker = new window.google.maps.Marker({
