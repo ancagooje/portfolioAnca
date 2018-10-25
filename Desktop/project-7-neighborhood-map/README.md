@@ -23,6 +23,10 @@ https://www.youtube.com/watch?v=LvQe7xrUh7I&index=6&list=PLKC17wty6rS1XVZbRlWjYU
 - I watched this tutorial as a general resource for signing up with Foursquare and Google Maps API: 
 https://www.youtube.com/watch?v=Uw5Ij56RhME 
 
+- I used the examples in the Bootstrap documentation on implementing a dropdown menu, navbar and search bar, and changed them for my specific use : 
+https://getbootstrap.com/docs/4.0/components/dropdowns/#menu-items
+https://getbootstrap.com/docs/4.0/components/navbar/
+
 
 ##About Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
