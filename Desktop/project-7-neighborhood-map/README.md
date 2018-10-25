@@ -12,15 +12,15 @@ I have used several resources for this project:
 - Elharony's tutorial part 2- the script loader function to load the google maps script source at:
 https://www.youtube.com/watch?v=W5LhLZqj76s&t=170s
 
--I read about marker animations at: https://developers.google.com/maps/documentation/javascript/examples/marker-animations
+- I read about marker animations at: https://developers.google.com/maps/documentation/javascript/examples/marker-animations
 
 - I used sample code from Google maps documentation at:
 https://developers.google.com/maps/documentation/javascript/tutorial
 
--I watched Ryan Waite's tutorial on implementing Google maps without 3rd party libraries: 
+- I watched Ryan Waite's tutorial on implementing Google maps without 3rd party libraries: 
 https://www.youtube.com/watch?v=LvQe7xrUh7I&index=6&list=PLKC17wty6rS1XVZbRlWjYU0WVsIoJyO3s&t=0s
 
--I watched this tutorial as a general resource for signing up with Foursquare and Google Maps API: 
+- I watched this tutorial as a general resource for signing up with Foursquare and Google Maps API: 
 https://www.youtube.com/watch?v=Uw5Ij56RhME 
 
 
