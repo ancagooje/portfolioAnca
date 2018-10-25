@@ -24,7 +24,7 @@ state = {
      client_secret: "X0O4RURKYRVBH0IXWDZRLUWT0ZPKWQXIDJXB3ANT3T44111N",
      query: "seafood",
      near: "Scarborough, ME",
-     v: "20182507"
+     v: "20182410"
    }
    axios.get(endPoint + new URLSearchParams(parameters))
    .then(response => {
@@ -60,7 +60,8 @@ state = {
       var marker = new window.google.maps.Marker({
         position: {lat: myVenue.venue.location.lat, lng: myVenue.venue.location.lng},
         map: map,
-        title: myVenue.venue.name
+        title: myVenue.venue.name,
+        animation: window.google.maps.Animation.DROP
       })
 
       //event listener to open info window when clicking the market
