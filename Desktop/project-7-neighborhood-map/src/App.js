@@ -51,8 +51,9 @@ state = {
 
       var infowindow = new window.google.maps.InfoWindow();
       
-      var contentString = '${myVenue.venue.name.address.website}'
-      
+      var contentString = '${myVenue.venue.name.phone.address}'
+      var contentString = `${myVenue.venue.name}`
+    // var contentString = `${myVenue.venue.phone}`
 //created a dynamic Marker using the example from https://developers.google.com/maps/documentation/javascript/markers
       var marker = new window.google.maps.Marker({
         position: {lat: myVenue.venue.location.lat, lng: myVenue.venue.location.lng},
