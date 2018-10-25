@@ -1,9 +1,33 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About this project
+Project 7 for Udacity FEND Nanodegree is a single page application created from scratch(using Create React App) without 3rd party libraries, featuring a map of my favorite neighborhood. I chose to focus on seafood restaurants in my neighborhood. The selected restaurants are featured on the map using markers that drop when the page is loaded. The list of restaurants is also available from a drop down menu in the responsive Bootstrap navigation bar. The user can filter the restaurants using the search bar.
+I have used Google maps API for rendering the map and Foursquare API to retrieve details about the venues.
 
+The service worker works only in production mode. Please run: [npm run build](#npm-run-build) for production mode.
+
+##Resources
+I have used several resources for this project: 
+
+- The Fend lessons regarding React & Google Maps API.
+
+- Elharony's tutorial part 2- the script loader function to load the google maps script source at:
+https://www.youtube.com/watch?v=W5LhLZqj76s&t=170s
+
+-I read about marker animations at: https://developers.google.com/maps/documentation/javascript/examples/marker-animations
+
+- I used sample code from Google maps documentation at:
+https://developers.google.com/maps/documentation/javascript/tutorial
+
+-I watched Ryan Waite's tutorial on implementing Google maps without 3rd party libraries: 
+https://www.youtube.com/watch?v=LvQe7xrUh7I&index=6&list=PLKC17wty6rS1XVZbRlWjYU0WVsIoJyO3s&t=0s
+
+-I watched this tutorial as a general resource for signing up with Foursquare and Google Maps API: 
+https://www.youtube.com/watch?v=Uw5Ij56RhME 
+
+
+##About Create React App
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md).
-
-## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
