@@ -24,7 +24,7 @@ state = {
      client_secret: "X0O4RURKYRVBH0IXWDZRLUWT0ZPKWQXIDJXB3ANT3T44111N",
      query: "seafood",
      near: "Scarborough, ME",
-     v: "20182410"
+     v: "20182507"
    }
    axios.get(endPoint + new URLSearchParams(parameters))
    .then(response => {
@@ -51,17 +51,13 @@ state = {
 
       var infowindow = new window.google.maps.InfoWindow();
       
-      var contentString = '${myVenue.venue.name.phone.address}'
-      var contentString = `${myVenue.venue.name}`
+      var contentString = '${myVenue.venue.name.address.website}'
       
-      // var contentString = `${myVenue.venue.address}`
-      // var contentString = `${myVenue.venue.phone}`
 //created a dynamic Marker using the example from https://developers.google.com/maps/documentation/javascript/markers
       var marker = new window.google.maps.Marker({
         position: {lat: myVenue.venue.location.lat, lng: myVenue.venue.location.lng},
         map: map,
-        title: myVenue.venue.name,
-        animation: window.google.maps.Animation.DROP
+        title: myVenue.venue.name
       })
 
       //event listener to open info window when clicking the market
