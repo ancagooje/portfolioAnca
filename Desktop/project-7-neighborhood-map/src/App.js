@@ -42,27 +42,27 @@ state = {
   initMap = ()  => {
 
     // display the Google map
-    var map = new window.google.maps.Map(document.getElementById('map'), 
+    const map = new window.google.maps.Map(document.getElementById('map'), 
     { center: {lat: 43.5780556, lng: -70.3222222},
       zoom: 11
-    })
+    });
 //created an Info Window using the example at https://developers.google.com/maps/documentation/javascript/infowindows
   
 
     this.state.venues.map(myVenue => {
 
-      var infowindow = new window.google.maps.InfoWindow();
+      const infowindow = new window.google.maps.InfoWindow();
       
       var contentString = '${myVenue.venue.name.phone.address}'
       var contentString = `${myVenue.venue.name}`
     // var contentString = `${myVenue.venue.phone}`
 //created a dynamic Marker using the example from https://developers.google.com/maps/documentation/javascript/markers
-      var marker = new window.google.maps.Marker({
+      const marker = new window.google.maps.Marker({
         position: {lat: myVenue.venue.location.lat, lng: myVenue.venue.location.lng},
         map: map,
         title: myVenue.venue.name
       })
-
+ 
       //event listener to open info window when clicking the market
       marker.addListener('click', function() {
 
