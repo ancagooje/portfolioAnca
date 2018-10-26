@@ -2,13 +2,18 @@ import React, { Component } from 'react';
 import './App.css';
 import Map from './Map'
 import Filter from './Filter'
+import Sidebar from './Sidebar'
 import axios from 'axios'
 
 class App extends Component {
-  
-state = {
-  venues: []
+  constructor(props) {
+    super(props)
+
+this.state = {
+  venues: [],
+  markers: [],
 }
+  }
 
   componentDidMount() {
     this.getVenues()
@@ -60,6 +65,9 @@ state = {
       const marker = new window.google.maps.Marker({
         position: {lat: myVenue.venue.location.lat, lng: myVenue.venue.location.lng},
         map: map,
+
+        animation: window.google.maps.Animation.DROP,
+        
         title: myVenue.venue.name
       })
  

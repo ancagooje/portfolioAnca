@@ -20,7 +20,7 @@ filteredVenues = (query) => {
     this.filterMarkers({query})
 }
 
-filteredMarkers = query => {
+filterMarkers = query => {
     let {markers} = this.this.props
     let filteredMarkers = markers.filter(marker =>
         marker.title.toLowerCase().includes(this.state.query.toLowerCase())
@@ -33,17 +33,17 @@ filteredMarkers = query => {
 
 
 
-    //render(){
-    //    let filteredVenues = this.props.localArts.filter( (seafood) => {
-  //          return seafood.venue.name.toLowerCase().indexOf(this.state.query.toLowerCase()) !== -1
-  //      })
+   // render() {
+  //    let filteredVenues = this.props.venues.filter( (seafood) => {
+//      return seafood.venue.name.toLowerCase().indexOf(this.state.query.toLowerCase()) !== -1
+  // })
     
-  //  return ()
+  // return (
     
-    //}
+   //)
    }
       
-    
+ 
   
 
 
