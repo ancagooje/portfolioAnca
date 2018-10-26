@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Map from './Map'
-import Filter from './Filter'
-import Sidebar from './Sidebar'
+import Map from './Components/Map'
+import Filter from './Components/Filter'
+import Sidebar from './Components/Sidebar'
 import axios from 'axios'
 
 class App extends Component {
