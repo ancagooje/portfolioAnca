@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import Map from './Map'
+import Filter from './Filter'
 import axios from 'axios'
 
 class App extends Component {
@@ -41,7 +43,7 @@ state = {
 
     // display the Google map
     var map = new window.google.maps.Map(document.getElementById('map'), 
-    { center: {lat: 43.5969466, lng: -70.3372277},
+    { center: {lat: 43.5780556, lng: -70.3222222},
       zoom: 11
     })
 //created an Info Window using the example at https://developers.google.com/maps/documentation/javascript/infowindows
@@ -72,6 +74,12 @@ state = {
       });
     })
     
+    //In the case of any error
+   // .catch(error => {
+      // and pass them to handleError()
+    //  this.handleError(error)
+  //})
+
   }
   render() {
     return (
